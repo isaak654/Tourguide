@@ -1,0 +1,11 @@
+<resources>
+    <!-- Height of image item -->
+    <dimen name="list_item_height">110dp</dimen>
+    <!-- Width of image item -->
+    <dimen name="list_item_width">150dp</dimen>
+    <!-- List item paddings -->
+    <dimen name="list_item_paddingTop">8dp</dimen>
+    <dimen name="list_item_paddingBottom">16dp</dimen>
+    <dimen name="list_item_paddingLeft">16dp</dimen>
+    <dimen name="list_item_paddingRight">16dp</dimen>
+</resources>

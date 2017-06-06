@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/list_item_paddingBottom"
+    android:paddingLeft="@dimen/list_item_paddingLeft"
+    android:paddingRight="@dimen/list_item_paddingRight"
+    android:paddingTop="@dimen/list_item_paddingTop">
+
+    <TextView
+        android:id="@+id/location_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/list_item_paddingLeft"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        tools:text="Messina Cathedral" />
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/list_item_paddingLeft">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/list_item_width"
+            android:layout_height="@dimen/list_item_height" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image">
+
+            <ImageView
+                android:id="@+id/room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_room" />
+
+            <TextView
+                android:id="@+id/address_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/room"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/black"
+                tools:text="Piazza Duomo 98122, ME" />
+
+            <TextView
+                android:id="@+id/location_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address_text_view"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/black"
+                tools:text="A Roman Catholic Cathedral, the current building is the final result of some reconstructions" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground" />
+</LinearLayout>

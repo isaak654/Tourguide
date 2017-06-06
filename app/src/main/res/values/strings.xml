@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Best of Messina City</string>
+
+    <!-- Category name for attractions [CHAR LIMIT=20] -->
+    <string name="category_sights">Sights</string>
+
+    <!-- Category name for parks [CHAR LIMIT=20] -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for food [CHAR LIMIT=20] -->
+    <string name="category_food">Food</string>
+
+    <!-- Category name for fitness [CHAR LIMIT=20] -->
+    <string name="category_fitness">Fitness</string>
+
+    <!-- Sight 1 -->
+    <string name="sight1">Messina Cathedral</string>
+    <string name="sight1_address">Piazza Duomo 98122, ME</string>
+    <string name="sight1_desc">A Roman Catholic Cathedral, the current building is the final result of some reconstructions which took place following the disastrous earthquake in 1908.</string>
+
+    <!-- Sight 2 -->
+    <string name="sight2">Palazzo Zanca</string>
+    <string name="sight2_address">Piazza Unione Europea 98122, ME</string>
+    <string name="sight2_desc">It\'s a courtyard-detached building developed in an articulated platform through five pavilions.</string>
+
+    <!-- Sight 3 -->
+    <string name="sight3">Neptune Fountain</string>
+    <string name="sight3_address">Via G. Garibaldi 98122, ME</string>
+    <string name="sight3_desc">A beautiful and spectacular sculpture at the entrance of the port of Messina.</string>
+
+    <!-- Sight 4 -->
+    <string name="sight4">Church of the Catalans</string>
+    <string name="sight4_address">Via G. Garibaldi 111 98122, ME</string>
+    <string name="sight4_desc">It was built on the ruins of an ancient temple dedicated to Neptune in the Norman period, in the twelfth century.</string>
+
+    <!-- Park 1 -->
+    <string name="park1">Villa Dante Park</string>
+    <string name="park1_address">Via San Cosimo, ME</string>
+    <string name="park1_desc">There are tennis courts, bowls, skating rinks, a swimming pool and an outdoor arena.</string>
+
+    <!-- Park 2 -->
+    <string name="park2">Villa Mazzini Park</string>
+    <string name="park2_address">Viale Boccetta (corner Corso Cavour)</string>
+    <string name="park2_desc">There are flower beds bordered by driveways and large lanes for children games.</string>
+
+    <!-- Park 3 -->
+    <string name="park3">Baby Park</string>
+    <string name="park3_address">Viale della Libertà 78, 98121 ME</string>
+    <string name="park3_desc">A park with children games and a skate board track.</string>
+
+    <!-- Park 4 -->
+    <string name="park4">Urban Park Don Blasco</string>
+    <string name="park4_address">Via S. Raineri, 98122 ME</string>
+    <string name="park4_desc">Originally a nomadic camp, it offers kids games and a large car parking.</string>
+
+    <!-- Food 1 -->
+    <string name="food1">A Cucchiara Restaurant</string>
+    <string name="food1_address">Strada San Giacomo 19, 98122 ME</string>
+    <string name="food1_desc">A restaurant which offers mediterranean dishes.</string>
+
+    <!-- Food 2 -->
+    <string name="food2">Kajiki Restaurant</string>
+    <string name="food2_address">Via XXVII Luglio, 98100 ME</string>
+    <string name="food2_desc">Elegant Japanese restaurant which offers sushi and tempura.</string>
+
+    <!-- Food 3 -->
+    <string name="food3">Ai 2 Laghi Restaurant</string>
+    <string name="food3_address">Via Lago Grande 29, 98165 ME</string>
+    <string name="food3_desc">A restaurant which offers seafood dishes.</string>
+
+    <!-- Fitness 1 -->
+    <string name="fitness1">Fox Gym</string>
+    <string name="fitness1_address">Via Crema 34, ME</string>
+    <string name="fitness1_desc">Aerobics, Step, Fit-Military-Workout, Fit-Boxe.</string>
+
+    <!-- Fitness 2 -->
+    <string name="fitness2">DNA Fit Wellness House</string>
+    <string name="fitness2_address">Via G. La Farina 265, 98100 ME</string>
+    <string name="fitness2_desc">Aerobic and muscular activities, but also entertainment, fitness, dance, yoga.</string>
+
+    <!-- Fitness 3 -->
+    <string name="fitness3">Azarian Gym</string>
+    <string name="fitness3_address">Via Cavalluccio 7A, 98122 ME</string>
+    <string name="fitness3_desc">Personalized training programs to everyone\'s reach.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
